@@ -1,0 +1,28 @@
+{
+  "ltex.language": "nl",
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none"
+  },
+  "micropico.syncFolder": ".",
+  "micropico.openOnStart": true,
+  "python.analysis.typeshedPaths": [
+    "~/.micropico-stubs/included",
+    "lib",
+    "."
+  ],
+  "python.analysis.extraPaths": [
+    "~/.micropico-stubs/included",
+    "lib",
+    "."
+  ],
+  "python.terminal.activateEnvironment": false,
+  "workbench.colorTheme": "wallbash",
+  "window.customTitleBarVisibility": "auto",
+  "git.confirmSync": false,
+  "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "newWindow"
+}
